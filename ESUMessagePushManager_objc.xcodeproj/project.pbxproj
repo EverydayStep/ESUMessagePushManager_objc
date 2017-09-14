@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97C187E51F6AA4A500453D7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C187E41F6AA4A500453D7C /* main.m */; };
+		97C187E81F6AA4A500453D7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C187E71F6AA4A500453D7C /* AppDelegate.m */; };
+		97C187EB1F6AA4A500453D7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C187EA1F6AA4A500453D7C /* ViewController.m */; };
+		97C187EE1F6AA4A500453D7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C187EC1F6AA4A500453D7C /* Main.storyboard */; };
+		97C187F01F6AA4A500453D7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C187EF1F6AA4A500453D7C /* Assets.xcassets */; };
+		97C187F31F6AA4A500453D7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C187F11F6AA4A500453D7C /* LaunchScreen.storyboard */; };
+		97C187FD1F6AA4D500453D7C /* ESUMessagePushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C187FC1F6AA4D500453D7C /* ESUMessagePushManager.m */; };
+		CB079CA7FD021679C57CCE5C /* libPods-ESUMessagePushManager_objc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51459E3E8C0ADF715A8957A8 /* libPods-ESUMessagePushManager_objc.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51459E3E8C0ADF715A8957A8 /* libPods-ESUMessagePushManager_objc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ESUMessagePushManager_objc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C90ABD6C799FF98DAD4CC11 /* Pods-ESUMessagePushManager_objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESUMessagePushManager_objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-ESUMessagePushManager_objc/Pods-ESUMessagePushManager_objc.release.xcconfig"; sourceTree = "<group>"; };
+		97C187E01F6AA4A500453D7C /* ESUMessagePushManager_objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESUMessagePushManager_objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C187E41F6AA4A500453D7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97C187E61F6AA4A500453D7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97C187E71F6AA4A500453D7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97C187E91F6AA4A500453D7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		97C187EA1F6AA4A500453D7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		97C187ED1F6AA4A500453D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97C187EF1F6AA4A500453D7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C187F21F6AA4A500453D7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C187F41F6AA4A500453D7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C187FB1F6AA4D500453D7C /* ESUMessagePushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESUMessagePushManager.h; sourceTree = "<group>"; };
+		97C187FC1F6AA4D500453D7C /* ESUMessagePushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESUMessagePushManager.m; sourceTree = "<group>"; };
+		EF6B7E885D941E39490CE9D7 /* Pods-ESUMessagePushManager_objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ESUMessagePushManager_objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ESUMessagePushManager_objc/Pods-ESUMessagePushManager_objc.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97C187DD1F6AA4A500453D7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB079CA7FD021679C57CCE5C /* libPods-ESUMessagePushManager_objc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F925AA4BA2E3D37ADF11CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF6B7E885D941E39490CE9D7 /* Pods-ESUMessagePushManager_objc.debug.xcconfig */,
+				8C90ABD6C799FF98DAD4CC11 /* Pods-ESUMessagePushManager_objc.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BAFE8755C1B3C384D0B64EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51459E3E8C0ADF715A8957A8 /* libPods-ESUMessagePushManager_objc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97C187D71F6AA4A500453D7C = {
+			isa = PBXGroup;
+			children = (
+				97C187E21F6AA4A500453D7C /* ESUMessagePushManager_objc */,
+				97C187E11F6AA4A500453D7C /* Products */,
+				3F925AA4BA2E3D37ADF11CA4 /* Pods */,
+				5BAFE8755C1B3C384D0B64EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		97C187E11F6AA4A500453D7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97C187E01F6AA4A500453D7C /* ESUMessagePushManager_objc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97C187E21F6AA4A500453D7C /* ESUMessagePushManager_objc */ = {
+			isa = PBXGroup;
+			children = (
+				97C187FA1F6AA4B700453D7C /* ESUMessagePushManager_objc */,
+				97C187E61F6AA4A500453D7C /* AppDelegate.h */,
+				97C187E71F6AA4A500453D7C /* AppDelegate.m */,
+				97C187E91F6AA4A500453D7C /* ViewController.h */,
+				97C187EA1F6AA4A500453D7C /* ViewController.m */,
+				97C187EC1F6AA4A500453D7C /* Main.storyboard */,
+				97C187EF1F6AA4A500453D7C /* Assets.xcassets */,
+				97C187F11F6AA4A500453D7C /* LaunchScreen.storyboard */,
+				97C187F41F6AA4A500453D7C /* Info.plist */,
+				97C187E31F6AA4A500453D7C /* Supporting Files */,
+			);
+			path = ESUMessagePushManager_objc;
+			sourceTree = "<group>";
+		};
+		97C187E31F6AA4A500453D7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C187E41F6AA4A500453D7C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97C187FA1F6AA4B700453D7C /* ESUMessagePushManager_objc */ = {
+			isa = PBXGroup;
+			children = (
+				97C187FB1F6AA4D500453D7C /* ESUMessagePushManager.h */,
+				97C187FC1F6AA4D500453D7C /* ESUMessagePushManager.m */,
+			);
+			path = ESUMessagePushManager_objc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97C187DF1F6AA4A500453D7C /* ESUMessagePushManager_objc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97C187F71F6AA4A500453D7C /* Build configuration list for PBXNativeTarget "ESUMessagePushManager_objc" */;
+			buildPhases = (
+				22B96F6DFEE81C14A320B6B1 /* [CP] Check Pods Manifest.lock */,
+				97C187DC1F6AA4A500453D7C /* Sources */,
+				97C187DD1F6AA4A500453D7C /* Frameworks */,
+				97C187DE1F6AA4A500453D7C /* Resources */,
+				85DCC06B49543E7E2ED3C2CA /* [CP] Embed Pods Frameworks */,
+				246092BF2A46380202A763A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESUMessagePushManager_objc;
+			productName = ESUMessagePushManager_objc;
+			productReference = 97C187E01F6AA4A500453D7C /* ESUMessagePushManager_objc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97C187D81F6AA4A500453D7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = codeLocker;
+				TargetAttributes = {
+					97C187DF1F6AA4A500453D7C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = EGNU2YN2XY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97C187DB1F6AA4A500453D7C /* Build configuration list for PBXProject "ESUMessagePushManager_objc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97C187D71F6AA4A500453D7C;
+			productRefGroup = 97C187E11F6AA4A500453D7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97C187DF1F6AA4A500453D7C /* ESUMessagePushManager_objc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97C187DE1F6AA4A500453D7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C187F31F6AA4A500453D7C /* LaunchScreen.storyboard in Resources */,
+				97C187F01F6AA4A500453D7C /* Assets.xcassets in Resources */,
+				97C187EE1F6AA4A500453D7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22B96F6DFEE81C14A320B6B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ESUMessagePushManager_objc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		246092BF2A46380202A763A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESUMessagePushManager_objc/Pods-ESUMessagePushManager_objc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85DCC06B49543E7E2ED3C2CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ESUMessagePushManager_objc/Pods-ESUMessagePushManager_objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97C187DC1F6AA4A500453D7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C187EB1F6AA4A500453D7C /* ViewController.m in Sources */,
+				97C187E81F6AA4A500453D7C /* AppDelegate.m in Sources */,
+				97C187E51F6AA4A500453D7C /* main.m in Sources */,
+				97C187FD1F6AA4D500453D7C /* ESUMessagePushManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97C187EC1F6AA4A500453D7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C187ED1F6AA4A500453D7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97C187F11F6AA4A500453D7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97C187F21F6AA4A500453D7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97C187F51F6AA4A500453D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97C187F61F6AA4A500453D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97C187F81F6AA4A500453D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF6B7E885D941E39490CE9D7 /* Pods-ESUMessagePushManager_objc.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EGNU2YN2XY;
+				INFOPLIST_FILE = ESUMessagePushManager_objc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codeLocker.ESUMessagePushManager-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97C187F91F6AA4A500453D7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C90ABD6C799FF98DAD4CC11 /* Pods-ESUMessagePushManager_objc.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EGNU2YN2XY;
+				INFOPLIST_FILE = ESUMessagePushManager_objc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "codeLocker.ESUMessagePushManager-objc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97C187DB1F6AA4A500453D7C /* Build configuration list for PBXProject "ESUMessagePushManager_objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C187F51F6AA4A500453D7C /* Debug */,
+				97C187F61F6AA4A500453D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97C187F71F6AA4A500453D7C /* Build configuration list for PBXNativeTarget "ESUMessagePushManager_objc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C187F81F6AA4A500453D7C /* Debug */,
+				97C187F91F6AA4A500453D7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97C187D81F6AA4A500453D7C /* Project object */;
+}
