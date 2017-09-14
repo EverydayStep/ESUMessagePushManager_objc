@@ -37,10 +37,14 @@
         [center requestAuthorizationWithOptions:type completionHandler:^(BOOL granted, NSError * _Nullable error) {
             if (granted) {
                 //点击允许
-                allow(error);
+                if (allow) {
+                    allow(error);
+                }
             } else {
                 //点击不允许
-                reject(error);
+                if (reject) {
+                    reject(error);
+                }
             }
         }];
     }
